@@ -11,7 +11,7 @@
 
 </head>
 <body>
-	<div class="page">
+	<div class="page  page--not-responsive">
 
 		<header class="header">
 				<a href="index.html" class="header__logo">
@@ -27,7 +27,10 @@
 				<div class="header-responsive-menu">
 					<nav class="header-nav">
 						<ul>
-							<li class="header-nav__item"><a href="order_checking.html" class="header-nav__link active">Заказы</a></li>
+							<li class="header-nav__item">
+								<a href="order_checking.html" class="header-nav__link active">Заказы</a> 
+								<span class="header-nav__badge">1350</span>
+							</li>
 							<li class="header-nav__item"><a href="#" class="header-nav__link">Маршруты и цены</a></li>
 							<li class="header-nav__item"><a href="landing_how-to-use.html" class="header-nav__link">Данные поставщика</a></li>
 							<li class="header-nav__item"><a href="landing_how-to-use.html" class="header-nav__link">Как этим пользоваться</a></li>
@@ -53,128 +56,68 @@
 				        </tr>
 				    </thead>
 				    <tbody>
-				        <tr>
+				        <tr class="js-popup-overflow-on">
 				            <td class="">1</td>
 				            <td>Хургада Аэропорт</td>
 				            <td>Hurgada Oasis Resort Apartment Hurgada Oasis Resort Apartment</td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">18 сен 2017 пн</div></td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">1 окт 2017 вс</div></td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">3 500 Р</div></td>
-				            <td class="manage-table__col--status">
-				            	<div class="manage-table__status-swipe"><b>Новый</b></div>
-				            	<div class="manage-table__actions  manage-table__actions--hidden">
-				            		<div class="manage-table__action-btn  manage-table__action-btn--green">
-				            			<button class="mdl-button mdl-js-button mdl-button--fab  mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored">
-											<i class="material-icons">add</i>
-										</button>
-				            		</div>
-				            		<div class="manage-table__action-btn  manage-table__action-btn--red">
-				            			<button class="mdl-button mdl-js-button mdl-button--fab  mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored">
-											<i class="material-icons">remove</i>
-										</button>
-				            		</div>
-				            	</div>
-				            </td>
+				            <td class="manage-table__col--status"><b>Новый</b></td>
 				        </tr>
-				        <tr>
+				        <tr class="js-popup-overflow-on">
 				            <td class="">2</td>
 				            <td>Хургада Аэропорт</td>
 				            <td>Hurgada Oasis Resort Apartment</td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">18 сен 2017 пн</div></td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">15 окт 2017 вс</div></td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">35 500 Р</div></td>
-				            <td class="manage-table__col--status">
-				            	<div class="manage-table__status-swipe">Подтвержден</div>
-				            	<div class="manage-table__actions  manage-table__actions--hidden">
-				            		<div class="manage-table__action-btn  manage-table__action-btn--green">
-				            			<button class="mdl-button mdl-js-button mdl-button--fab  mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored">
-											<i class="material-icons">add</i>
-										</button>
-				            		</div>
-				            		<div class="manage-table__action-btn  manage-table__action-btn--red">
-				            			<button class="mdl-button mdl-js-button mdl-button--fab  mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored">
-											<i class="material-icons">remove</i>
-										</button>
-				            		</div>
-				            	</div>
-				            </td>
+				            <td class="manage-table__col--status">Выполнен</td>
 				        </tr>
-				        <tr class="manage-table__row--canceled">
+				        <tr class="js-popup-overflow-on manage-table__row--canceled">
 				            <td class="">3</td>
 				            <td>Хургада Аэропорт</td>
 				            <td>Hurgada Oasis Resort Apartment</td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">18 сен 2017 пн</div></td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">1 окт 2017 вс</div></td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">3 500 Р</div></td>
-				            <td class="manage-table__col--status">
-				            	<div class="manage-table__status-swipe">Отменен</div>
-				            	<div class="manage-table__actions  manage-table__actions--hidden">
-				            		<div class="manage-table__action-btn  manage-table__action-btn--red">
-				            			<button class="mdl-button mdl-js-button mdl-button--fab  mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored">
-											<i class="material-icons">delete_forever</i>
-										</button>
-				            		</div>
-				            	</div>
-				            </td>
+				            <td class="manage-table__col--status">Отменен</td>
 				        </tr>
-				        <tr class="manage-table__row--completed">
+				        <tr class="js-popup-overflow-on manage-table__row--completed">
 				            <td class="">4</td>
 				            <td>Хургада Аэропорт</td>
 				            <td>Hurgada Oasis Resort Apartment</td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">18 сен 2017 пн</div></td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">1 окт 2017 вс</div></td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">3 500 Р</div></td>
-				            <td class="manage-table__col--status">
-				            	<div class="manage-table__status-swipe">Подтвержден</div>
-				            	<div class="manage-table__actions  manage-table__actions--hidden">
-				            		<div class="manage-table__action-btn  manage-table__action-btn--red">
-				            			<button class="mdl-button mdl-js-button mdl-button--fab  mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored">
-											<i class="material-icons">delete_forever</i>
-										</button>
-				            		</div>
-				            	</div>
-				            </td>
+				            <td class="manage-table__col--status">Выполнен</td>
 				        </tr>
-				        <tr class="manage-table__row--canceled">
+				        <tr class="js-popup-overflow-on manage-table__row--canceled">
 				            <td class="">5</td>
 				            <td>Хургада Аэропорт</td>
 				            <td>Hurgada Oasis Resort Apartment</td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">18 сен 2017 пн</div></td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">1 окт 2017 вс</div></td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">3 500 Р</div></td>
-				            <td class="manage-table__col--status">
-				            	<div class="manage-table__status-swipe">Отменен</div>
+				            <td class="manage-table__col--status">Отменен
+				            	<!-- <div class="manage-table__status-swipe">Отменен</div>
 				            	<div class="manage-table__actions  manage-table__actions--hidden">
 				            		<div class="manage-table__action-btn  manage-table__action-btn--red">
 				            			<button class="mdl-button mdl-js-button mdl-button--fab  mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored">
 											<i class="material-icons">delete_forever</i>
 										</button>
 				            		</div>
-				            	</div>
+				            	</div> -->
 				            </td>
 				        </tr>
-				        <tr>
+				        <tr class="js-popup-overflow-on">
 				            <td class="">6</td>
 				            <td>Хургада Аэропорт</td>
 				            <td>Hurgada Oasis Resort Apartment</td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">18 сен 2017 пн</div></td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">1 окт 2017 вс</div></td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">3 500 Р</div></td>
-				            <td class="manage-table__col--status">
-				            	<div class="manage-table__status-swipe"><b>Новый</b></div>
-				            	<div class="manage-table__actions  manage-table__actions--hidden">
-				            		<div class="manage-table__action-btn  manage-table__action-btn--green">
-				            			<button class="mdl-button mdl-js-button mdl-button--fab  mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored">
-											<i class="material-icons">add</i>
-										</button>
-				            		</div>
-				            		<div class="manage-table__action-btn  manage-table__action-btn--red">
-				            			<button class="mdl-button mdl-js-button mdl-button--fab  mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored">
-											<i class="material-icons">remove</i>
-										</button>
-				            		</div>
-				            	</div>
-				            </td>
+				            <td class="manage-table__col--status"><b>Новый</b></td>
 				        </tr>
 				    </tbody>
 				</table>
@@ -231,10 +174,10 @@
 			       		</div>
 					</div>
 					<div class="footer-nav">
-						<div class="footer-nav__item  footer-nav__item_active"><a href="#" class="footer-nav__link">Трансфер</a></div>
-						<div class="footer-nav__item"><a href="#" class="footer-nav__link">Проверить заказ</a></div>
-						<div class="footer-nav__item"><a href="#" class="footer-nav__link">Как это работает</a></div>
-						<div class="footer-nav__item"><a href="#" class="footer-nav__link">Вопросы и ответы</a></div>
+						<div class="footer-nav__item  footer-nav__item_active"><a href="#" class="footer-nav__link">Заказы</a></div>
+						<div class="footer-nav__item"><a href="#" class="footer-nav__link">Маршруты и цены</a></div>
+						<div class="footer-nav__item"><a href="#" class="footer-nav__link">Данные поставщика</a></div>
+						<div class="footer-nav__item"><a href="#" class="footer-nav__link">Как этим пользоваться</a></div>
 					</div>
 				</div>
 				<div class="footer-board clearfix">
@@ -257,6 +200,159 @@
 		        </div>
 			</div>
 		</footer>
+
+		
+		<div class="popup-overflow  popup-overflow--dark  js-popup-overflow">
+			
+			<div class="popup  manage-popup  manage-popup--wide">
+				<div class="manage-popup__head">
+					<div class="reservation-block__desc">Order number <span>36541</span></div>
+					<div class="manage-popup__close  js-popup-overflow-close"><i class="material-icons">close</i></div>
+				</div>
+				
+				<div class="reservation-block">
+					
+					<div class="reservation-block__items">
+						<div class="reservation-block__item">
+							<div class="reservation-block__subtitle">Passenger details</div>
+							<div class="reservation-block__table">
+								<div class="reservation-block__row">
+									<div class="reservation-block__col  reservation-block__col--label">
+										<div class="reservation-block__text  reservation-block__text--gray">Name</div>
+									</div>
+									<div class="reservation-block__col">
+										<div class="reservation-block__text">Irina Momot</div>
+									</div>
+								</div>
+								<div class="reservation-block__row">
+									<div class="reservation-block__col  reservation-block__col--label">
+										<div class="reservation-block__text  reservation-block__text--gray">Phone</div>
+									</div>
+									<div class="reservation-block__col">
+										<div class="reservation-block__text">+7 (927) 268-06-41</div>
+									</div>
+								</div>
+								<div class="reservation-block__row">
+									<div class="reservation-block__col  reservation-block__col--label">
+										<div class="reservation-block__text  reservation-block__text--gray">Email</div>
+									</div>
+									<div class="reservation-block__col">
+										<div class="reservation-block__text">irinatst@rambler.ru</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="reservation-block__item">
+							<div class="reservation-block__subtitle">Transfer information</div>
+							<div class="reservation-block__table">
+								<div class="reservation-block__row">
+									<div class="reservation-block__col  reservation-block__col--label">
+										<div class="reservation-block__text  reservation-block__text--gray">Arriving</div>
+									</div>
+									<div class="reservation-block__col">
+										<div class="reservation-block__text">4 Mar 2017, 20:10</div>
+									</div>
+								</div>
+								<div class="reservation-block__row">
+									<div class="reservation-block__col  reservation-block__col--label">
+										<div class="reservation-block__text  reservation-block__text--gray">Pick-up</div>
+									</div>
+									<div class="reservation-block__col">
+										<div class="reservation-block__text">Istanbul Sabiha Gokcen Airport, Turkey</div>
+									</div>
+								</div>
+								<div class="reservation-block__row">
+									<div class="reservation-block__col  reservation-block__col--label">
+										<div class="reservation-block__text  reservation-block__text--gray">Flight Number</div>
+									</div>
+									<div class="reservation-block__col">
+										<div class="reservation-block__text">PC 885</div>
+									</div>
+								</div>
+								<div class="reservation-block__row">
+									<div class="reservation-block__col  reservation-block__col--label">
+										<div class="reservation-block__text  reservation-block__text--gray">Drop-off</div>
+									</div>
+									<div class="reservation-block__col">
+										<div class="reservation-block__text">Nobethane Caddesi, No:1 (34112) Sirkeci, Istanbul, Fatih, Turkey</div>
+									</div>
+								</div>
+								<div class="reservation-block__row">
+									<div class="reservation-block__col  reservation-block__col--label">
+										<div class="reservation-block__text  reservation-block__text--gray">Vehicle type</div>
+									</div>
+									<div class="reservation-block__col">
+										<div class="reservation-block__text">Standart (up to 4 passengers and 3 luggage)</div>
+									</div>
+								</div>
+								<div class="reservation-block__row">
+									<div class="reservation-block__col  reservation-block__col--label">
+										<div class="reservation-block__text  reservation-block__text--gray">Passengers</div>
+									</div>
+									<div class="reservation-block__col">
+										<div class="reservation-block__text">2</div>
+									</div>
+								</div>
+								<div class="reservation-block__row">
+									<div class="reservation-block__col  reservation-block__col--label">
+										<div class="reservation-block__text  reservation-block__text--gray">Duration</div>
+									</div>
+									<div class="reservation-block__col">
+										<div class="reservation-block__text">45 min</div>
+									</div>
+								</div>
+								<div class="reservation-block__row">
+									<div class="reservation-block__col  reservation-block__col--label">
+										<div class="reservation-block__text  reservation-block__text--gray">Company phone</div>
+									</div>
+									<div class="reservation-block__col">
+										<div class="reservation-block__text">+90 541 244 2123</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="reservation-block-cost  reservation-block-cost--narrow">
+						<div class="reservation-block-cost__table">
+							<div class="reservation-block-cost__row">
+								<div class="reservation-block-cost__col">
+									<div class="reservation-block-cost__text">Prepaid</div>
+								</div>
+								<div class="reservation-block-cost__col">
+									<div class="reservation-block-cost__text"><b>4 EUR</b> 269 RUB</div>
+								</div>
+							</div>
+							<div class="reservation-block-cost__row">
+								<div class="reservation-block-cost__col">
+									<div class="reservation-block-cost__text">Pay to driver</div>
+								</div>
+								<div class="reservation-block-cost__col">
+									<div class="reservation-block-cost__text"><b>48 EUR</b> 3 360 RUB</div>
+								</div>
+							</div>
+							<div class="reservation-block-cost__row">
+								<div class="reservation-block-cost__col">
+									<div class="reservation-block-cost__text">Total amount</div>
+								</div>
+								<div class="reservation-block-cost__col">
+									<div class="reservation-block-cost__text"><b>52 EUR</b> 3 329 RUB</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="manage-popup__row">
+						<button class="block-btn  manage-popup__btn  manage-popup__btn--green  mdl-js-button  mdl-js-ripple-effect">Принять</button>
+						<button class="block-btn  manage-popup__btn  manage-popup__btn--red  mdl-js-button  mdl-js-ripple-effect">Отказаться</button>
+						<button class="block-btn  manage-popup__btn  manage-popup__btn--red  mdl-js-button  mdl-js-ripple-effect">Удалить</button>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
 
 		<script type="text/javascript" src="js/main.js"></script>
 		<script type="text/javascript" src="js/vendor/material.min.js"></script>
