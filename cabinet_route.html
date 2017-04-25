@@ -2,7 +2,6 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Carsrent</title>
 
 	<link rel="stylesheet" href="css/style.css">
@@ -45,7 +44,13 @@
 			<div class="manage">
 				
 				<div class="manage-panel">
-					<button class="manage-panel__btn  js-popup-on  manage-panel__btn--right  block-btn  mdl-js-button  mdl-js-ripple-effect"><i class="material-icons">playlist_add</i> Добавить маршрут</button>
+					<a href="cabinet_editor.html">
+						<button class="manage-panel__btn  
+								manage-panel__btn--right  block-btn  mdl-js-button  mdl-js-ripple-effect">
+								<i class="material-icons">playlist_add</i> 
+								Добавить маршрут
+						</button>
+					</a>
 				</div>
 
 				<table class="manage-table">
@@ -61,46 +66,110 @@
 				        </tr>
 				    </thead>
 				    <tbody>
-				        <tr class="js-popup-on">
+				        <tr class="js-manage-table-menu-row">
 				            <td class="">1</td>
 				            <td>Верона Аэропорт</td>
 				            <td>Rizzi Aquacharme Hotel & Spa</td>
 				            <td>Standard</td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">Бесплатно</div></td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">Бесплатно</div></td>
-				            <td><div class="manage-table__text  manage-table__text--nowrap">3 500 Р</div></td>
+				            <td>
+				            	<div class="manage-table__text  manage-table__text--nowrap">
+				            		<span class="manage-table__price">322 500 Р</span>
+									
+									<div class="manage-table__menu  manage-table__menu--in-table">
+						            	<button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
+											<i class="material-icons">more_vert</i>
+										</button>
+
+										<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+										    for="demo-menu-lower-right">
+											<li class="mdl-menu__item"><a href="cabinet_editor.html">Редактировать</a></li>
+											<li class="mdl-menu__item">Удалить</li>
+										</ul>
+									</div>
+				            	</div>
+				            </td>
 				        </tr>
-				        <tr class="js-popup-on">
+				        <tr class="js-manage-table-menu-row">
 				            <td class="">2</td>
 				            <td>Верона Аэропорт</td>
 				            <td>Rizzi Aquacharme Hotel & Spa</td>
 				            <td>Standard</td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">300 Р</div></td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">300 Р</div></td>
-				            <td><div class="manage-table__text  manage-table__text--nowrap">3 500 Р</div></td>
+				            <td>
+				            	<div class="manage-table__text  manage-table__text--nowrap">
+				            		<span class="manage-table__price">5 500 Р</span>
+									
+									<div class="manage-table__menu  manage-table__menu--in-table">
+						            	<button id="demo-menu-lower-right2" class="mdl-button mdl-js-button mdl-button--icon">
+											<i class="material-icons">more_vert</i>
+										</button>
+
+										<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+										    for="demo-menu-lower-right2">
+											<li class="mdl-menu__item"><a href="cabinet_editor.html">Редактировать</a></li>
+											<li class="mdl-menu__item">Удалить</li>
+										</ul>
+									</div>
+				            	</div>
+				            </td>
 				        </tr>
-				        <tr class="js-popup-on">
+				        <tr class="js-manage-table-menu-row">
 				            <td class="">3</td>
 				            <td>Верона Аэропорт</td>
 				            <td>Rizzi Aquacharme Hotel & Spa</td>
 				            <td>Standard</td>
 				            <td></td>
 				            <td></td>
-				            <td><div class="manage-table__text  manage-table__text--nowrap">3 500 Р</div></td>
+				            <td>
+				            	<div class="manage-table__text  manage-table__text--nowrap">
+				            		<span class="manage-table__price">3 500 Р</span>
+									
+									<div class="manage-table__menu  manage-table__menu--in-table">
+						            	<button id="demo-menu-lower-right3" class="mdl-button mdl-js-button mdl-button--icon">
+											<i class="material-icons">more_vert</i>
+										</button>
+
+										<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+										    for="demo-menu-lower-right3">
+											<li class="mdl-menu__item"><a href="cabinet_editor.html">Редактировать</a></li>
+											<li class="mdl-menu__item">Удалить</li>
+										</ul>
+									</div>
+				            	</div>
+				            </td>
 				        </tr>
-				        <tr class="js-popup-on">
+				        <tr class="js-manage-table-menu-row">
 				            <td class="">2</td>
 				            <td>Верона Аэропорт</td>
 				            <td>Rizzi Aquacharme Hotel & Spa</td>
 				            <td>Standard</td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">Бесплатно</div></td>
 				            <td><div class="manage-table__text  manage-table__text--nowrap">300 Р</div></td>
-				            <td><div class="manage-table__text  manage-table__text--nowrap">3 500 Р</div></td>
+				            <td>
+				            	<div class="manage-table__text  manage-table__text--nowrap">
+				            		<span class="manage-table__price">3 500 Р</span>
+									
+									<div class="manage-table__menu  manage-table__menu--in-table">
+						            	<button id="demo-menu-lower-right4" class="mdl-button mdl-js-button mdl-button--icon">
+											<i class="material-icons">more_vert</i>
+										</button>
+
+										<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+										    for="demo-menu-lower-right4">
+											<li class="mdl-menu__item"><a href="cabinet_editor.html">Редактировать</a></li>
+											<li class="mdl-menu__item">Удалить</li>
+										</ul>
+									</div>
+				            	</div>
+				            </td>
 				        </tr>
 				    </tbody>
 				</table>
 
-				<a href="#!" class="more-btn  js-popup-on">Добавить маршрут</a>
+				<a href="cabinet_editor.html" class="more-btn">Добавить маршрут</a>
 				
 			</div>
 
@@ -165,12 +234,12 @@
 			</div>
 		</footer>
 
-		<div class="popup  manage-popup  js-popup">
+		<!-- <div class="popup  manage-popup  js-popup">
 			<div class="manage-popup__head">
 				<div class="manage-popup__title">Редактор маршрута</div>
 				<div class="manage-popup__close  js-popup-close"><i class="material-icons">close</i></div>
 			</div>
-
+			
 			<div class="js-tab">
 				<div class="form__label">Откуда</div>
 				<div class="form__group  form__group--100">
@@ -331,8 +400,6 @@
 							<span class="form__trigger"><i class="material-icons">expand_more</i></span>
 							<input type="hidden" class="form__input  js-form-input  js-form-time-val" placeholder="Время прилета" readonly>
 							<div class="form__currency-icon">
-								<!-- <i class="fa fa-euro"></i> -->
-								<!-- <i class="fa fa-usd"></i> -->
 								<i class="fa fa-rub"></i>
 							</div>
 							<span class="form__val  form__val--currency  js-form-text-val"><span class="form__val-placeholder">Рублей</span></span>
@@ -346,7 +413,7 @@
 			</div>
 		</div>
 
-		<div id="overlay" class="overlay overlay--dark"></div>
+		<div id="overlay" class="overlay overlay--dark"></div> -->
 
 		<script type="text/javascript" src="js/main.js"></script>
 		<script type="text/javascript" src="js/vendor/material.min.js"></script>
