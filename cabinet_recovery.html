@@ -10,12 +10,12 @@
 
 </head>
 <body>
-	<div class="page">
-		
+	<div class="page  page--not-responsive">
+
 		<header class="header">
-			<a href="index.html" class="header__logo">
-				<img src="images/logo.png" alt="">
-			</a>
+				<a href="index.html" class="header__logo">
+					<img src="images/logo.png" alt="">
+				</a>
 			<div class="header__content">
 				<div class="header-responsive-btn">
 		            <span class="header-responsive-btn__text">Меню</span>
@@ -24,41 +24,15 @@
 		            <span class="header-responsive-btn__bar"></span>
 				</div>
 				<div class="header-responsive-menu">
-					<div class="header-panel">
-						<div class="header-panel__item">
-							<div class="header-panel__icon  header-panel__icon_fav-active">
-								<div class="header-panel__counter">5</div>
-							</div>
-						</div>
-						<div class="header-panel__item  header-panel__item_currency">
-							<div class="header-panel__icon  header-panel__icon_rub">
-								
-							</div>
-							<div class="header-panel__popup">
-								<div class="header-panel__popup-item">евро</div>
-								<div class="header-panel__popup-item">доллар</div>
-								<div class="header-panel__popup-item  header-panel__popup-item_active">рубль</div>
-							</div>
-						</div>
-						<div class="header-panel__item  header-panel__item_user">
-							<div class="header-panel__icon header-panel__icon_power">
-								
-							</div>
-							<div class="header-panel__popup">
-								<div class="header-panel__popup-item">поездки</div>
-								<div class="header-panel__popup-item">бонусы</div>
-								<div class="header-panel__popup-item">избранное</div>
-								<div class="header-panel__popup-item">настройки</div>
-								<div class="header-panel__popup-item">выход</div>
-							</div>
-						</div>
-					</div>
 					<nav class="header-nav">
 						<ul>
-							<li class="header-nav__item"><a href="catalog.html" class="header-nav__link active">Трансфер</a></li>
-							<li class="header-nav__item"><a href="order_checking.html" class="header-nav__link">Проверить заказ</a></li>
-							<li class="header-nav__item"><a href="#" class="header-nav__link">Справочник</a></li>
-							<li class="header-nav__item"><a href="landing_how-to-use.html" class="header-nav__link">Как это работает</a></li>
+							<li class="header-nav__item">
+								<a href="order_checking.html" class="header-nav__link active">Заказы</a> 
+								<span class="header-nav__badge">1350</span>
+							</li>
+							<li class="header-nav__item"><a href="#" class="header-nav__link">Маршруты и цены</a></li>
+							<li class="header-nav__item"><a href="landing_how-to-use.html" class="header-nav__link">Данные поставщика</a></li>
+							<li class="header-nav__item"><a href="landing_how-to-use.html" class="header-nav__link">Как этим пользоваться</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -66,14 +40,47 @@
 		</header>
 
 		<main class="content">
-			<div class="content__table">
-				<div class="content__col content__col_left">
-					yo asdas
+			
+			<div class="manage">
+				
+				<div class="manage-provider  manage-provider--big-height">
+
+					<div class="manage-provider__title">Смена пароля от личного кабинета</div>
+
+					<div class="form__table  form__table--fixed-width">
+						<div class="form__row">
+							<div class="form__col">
+								<div class="form__group">
+									<div class="form__field">
+										<input type="password" class="form__input  js-form-input" placeholder="Введите пароль">
+									</div>
+								</div>
+								<div class="form__msg">Введите новый пароль для доступа в личный кабинет</div>
+							</div>
+						</div>
+						<div class="form__row">
+							<div class="form__col">
+								<div class="form__group">
+									<div class="form__field">
+										<input type="password" class="form__input  js-form-input" placeholder="Введите пароль">
+									</div>
+								</div>
+								<div class="form__msg">Повторите новый пароль</div>
+							</div>
+						</div>
+						<div class="form__row">
+							<div class="form__col">
+								<button class="form__btn js-step2 mdl-js-button mdl-js-ripple-effect">
+									<span class="form__btn-text">Продолжить</span> <span class="form__btn-module"><i class="fa fa-chevron-right"></i></span>
+								</button>
+							</div>
+						</div>
+					</div>
+
 				</div>
-				<div class="content__col content__col_right">
-					sss
-				</div>
+
 			</div>
+
 		</main>
 
 		<footer class="footer  footer_responsive">
@@ -108,10 +115,10 @@
 			       		</div>
 					</div>
 					<div class="footer-nav">
-						<div class="footer-nav__item  footer-nav__item_active"><a href="#" class="footer-nav__link">Трансфер</a></div>
-						<div class="footer-nav__item"><a href="#" class="footer-nav__link">Проверить заказ</a></div>
-						<div class="footer-nav__item"><a href="#" class="footer-nav__link">Как это работает</a></div>
-						<div class="footer-nav__item"><a href="#" class="footer-nav__link">Вопросы и ответы</a></div>
+						<div class="footer-nav__item  footer-nav__item_active"><a href="#" class="footer-nav__link">Заказы</a></div>
+						<div class="footer-nav__item"><a href="#" class="footer-nav__link">Маршруты и цены</a></div>
+						<div class="footer-nav__item"><a href="#" class="footer-nav__link">Данные поставщика</a></div>
+						<div class="footer-nav__item"><a href="#" class="footer-nav__link">Как этим пользоваться</a></div>
 					</div>
 				</div>
 				<div class="footer-board clearfix">
