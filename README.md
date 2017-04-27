@@ -1,2 +1,2 @@
-# carsrent.github.io
-carsrent.github.io
+# CarsRent
+Проект для аренды такси в путешествиях и не только
